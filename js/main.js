@@ -9,12 +9,12 @@
 
 'use strict';
 
-(function ($) {
+(function($) {
 
     /*------------------
         Preloader
     --------------------*/
-    $(window).on('load', function () {
+    $(window).on('load', function() {
         $(".loader").fadeOut();
         $("#preloder").delay(200).fadeOut("slow");
     });
@@ -22,29 +22,29 @@
     /*------------------
         Background Set
     --------------------*/
-    $('.set-bg').each(function () {
+    $('.set-bg').each(function() {
         var bg = $(this).data('setbg');
         $(this).css('background-image', 'url(' + bg + ')');
     });
 
     //Canvas Menu
-    $(".canvas-open").on('click', function () {
+    $(".canvas-open").on('click', function() {
         $(".offcanvas-menu-wrapper").addClass("show-offcanvas-menu-wrapper");
         $(".offcanvas-menu-overlay").addClass("active");
     });
 
-    $(".canvas-close, .offcanvas-menu-overlay").on('click', function () {
+    $(".canvas-close, .offcanvas-menu-overlay").on('click', function() {
         $(".offcanvas-menu-wrapper").removeClass("show-offcanvas-menu-wrapper");
         $(".offcanvas-menu-overlay").removeClass("active");
     });
 
     // Search model
-    $('.search-switch').on('click', function () {
+    $('.search-switch').on('click', function() {
         $('.search-model').fadeIn(400);
     });
 
-    $('.search-close-switch').on('click', function () {
-        $('.search-model').fadeOut(400, function () {
+    $('.search-close-switch').on('click', function() {
+        $('.search-model').fadeOut(400, function() {
             $('#search-input').val('');
         });
     });
@@ -152,7 +152,7 @@
         duration: 2000
     });
 
-    $('.table-controls ul li').on('click', function () {
+    $('.table-controls ul li').on('click', function() {
         var tsfilter = $(this).data('tsfilter');
         $('.table-controls ul li').removeClass('active');
         $(this).addClass('active');
@@ -163,7 +163,7 @@
         } else {
             $('.class-timetable').addClass('filtering');
         }
-        $('.ts-meta').each(function () {
+        $('.ts-meta').each(function() {
             $(this).removeClass('show');
             if ($(this).data('tsmeta') == tsfilter) {
                 $(this).addClass('show');
