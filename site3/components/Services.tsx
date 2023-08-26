@@ -8,7 +8,7 @@ const Services = () => {
                 <p>Some stuff here</p>
             </div>
             <div style={{ flex: 1 }}>
-                <Image src="/myImages/BJJTemplate.jpg" alt="Logo" width={40} height={40} />
+                <Image src="/BJJTemplate.jpg" alt="Logo" width={40} height={40} />
             </div>
         </div>
     );
