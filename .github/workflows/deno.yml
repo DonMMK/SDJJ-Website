@@ -26,3 +26,9 @@ jobs:
 
       - name: Run Tests
         run: deno test -A --unstable tests/**/*.test.ts # Customize test path
+
+      - name: Generate Documentation
+        run: deno doc --unstable --reload
+
+      - name: Performance Testing
+        run: deno run --allow-net performance-test.ts # Replace with actual performance testing script
