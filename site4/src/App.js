@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React from 'react';
 
 import { Footer, Blog, Possibility, Features, WhatGPT3, Header } from './containers';
@@ -11,12 +12,12 @@ const App = () => (
       <Navbar />
       <Header />
     </div>
-    <Brand />
-    <WhatGPT3 />
-    <Features />
-    <Possibility />
     <CTA />
+    {/* <Brand /> */}
+    <WhatGPT3 />
+    <Possibility />
     <Blog />
+    <Features />
     <Footer />
   </div>
 );
