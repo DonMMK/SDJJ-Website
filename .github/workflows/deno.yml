@@ -21,11 +21,8 @@ jobs:
         with:
           deno-version: v1.x
 
-      - name: Cache Dependencies
-        run: deno cache --unstable deps.ts
-
       - name: Run Linter
-        run: deno lint path/to/lint/directory # Customize path
+        run: deno lint site4 # Customize path
 
       - name: Run Tests
         run: deno test -A --unstable tests/**/*.test.ts # Customize test path
