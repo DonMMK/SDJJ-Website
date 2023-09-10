@@ -7,8 +7,8 @@ import './header.css';
 const Header = () => (
   <div className="gpt3__header section__padding" id="home">
     <div className="gpt3__header-content">
-      <h1 className="gradient__text">Let&apos;s Build Something amazing with GPT-3 OpenAI</h1>
-      <p>Yet bed any for travelling assistance indulgence unpleasing. Not thoughts all exercise blessing. Indulgence way everything joy alteration boisterous the attachment. Party we years to order allow asked of.</p>
+      <h1 className="gradient__text">Bringing the focus of Jiu-Jitsu back to Martial Art and less so this Sport-centric focus and culture</h1>
+      <p>With over 20 years experience in Brazilian Jiu Jitsu and Mixed Martial Arts. Stacked Deck Jiu Jitsu is the place to start. There are a variety of classes, personal one-on-one training available and a fully functional gym set up waiting for you.</p>
 
       <div className="gpt3__header-content__input">
         <input type="email" placeholder="Your Email Address" />
