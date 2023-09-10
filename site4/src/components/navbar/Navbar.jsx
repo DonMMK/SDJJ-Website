@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
-import logo from '../../logo.svg';
+// import logo from '../../logo.svg';
+import sdjjLogo from '../../assets/sdjj_pictures/StackedDeckLogo_Background_Removed.png';
 import './navbar.css';
 
 const Navbar = () => {
@@ -10,7 +11,7 @@ const Navbar = () => {
     <div className="gpt3__navbar">
       <div className="gpt3__navbar-links">
         <div className="gpt3__navbar-links_logo">
-          <img src={logo} />
+          <img src={sdjjLogo} />
         </div>
         <div className="gpt3__navbar-links_container">
           <p><a href="#home">Home</a></p>

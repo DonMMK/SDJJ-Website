@@ -6,7 +6,7 @@ const FeatureVideo = () => (
   <div className="gpt3__cta">
     <div className="gpt3__cta-content">
       {/* <p>Request Early Access to Get Started</p> */}
-      <h3 style={{marginRight: '1rem' }}>Register Today & start exploring the endless possibilities.</h3>
+      <h3 style={{marginRight: '1rem' }}>Have you ever wanted to learn a martial art? Start today and fulfil that desire .</h3>
     </div>
     <div className="gpt3__cta-video" style={{ display: 'flex', justifyContent: 'center' }}>
       <iframe
