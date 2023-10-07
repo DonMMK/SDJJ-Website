@@ -1,18 +1,25 @@
 .gpt3__whatgpt3 {
     display: flex;
     flex-direction: column;
+
     padding: 2rem;
     background: var(--color-footer);
+
     /* ff 3.6+ */
-    background: -moz-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+    background:-moz-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+
     /* safari 5.1+,chrome 10+ */
-    background: -webkit-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+    background:-webkit-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+
     /* opera 11.10+ */
-    background: -o-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+    background:-o-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+
     /* ie 10+ */
-    background: -ms-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+    background:-ms-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+
     /* global 92%+ browsers support */
-    background: radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+    background:radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
@@ -20,16 +27,12 @@
     display: flex;
 }
 
-
 /* Customizing feature component as per needs */
-
 .gpt3__whatgpt3-feature .gpt3__features-container__feature {
     margin: 0;
 }
 
-
 /* Customizing feature component as per needs */
-
 .gpt3__whatgpt3-feature .gpt3__features-container_feature-text {
     max-width: 700px;
 }
@@ -39,6 +42,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    
     margin: 4rem 0 2rem;
 }
 
@@ -63,12 +67,11 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+
     margin-top: 2rem;
 }
 
-
 /* Customizing feature component as per needs */
-
 .gpt3__whatgpt3-container .gpt3__features-container__feature {
     flex: 1;
     margin: 1rem;
@@ -77,9 +80,7 @@
     flex-direction: column;
 }
 
-
 /* Customizing feature component as per needs */
-
 .gpt3__whatgpt3-container .gpt3__features-container_feature-text {
     margin-top: 0.5rem;
 }
@@ -90,6 +91,7 @@
         align-items: flex-start;
         margin-bottom: 0rem;
     }
+
     .gpt3__whatgpt3-heading p {
         margin-top: 1rem;
     }
@@ -100,10 +102,12 @@
     .gpt3__whatgpt3-feature .gpt3__features-container__feature {
         flex-direction: column;
     }
+
     /* Customizing feature component as per needs */
     .gpt3__whatgpt3-feature .gpt3__features-container_feature-text {
         margin-top: 0.5rem;
     }
+
     .gpt3__whatgpt3-heading h1 {
         font-size: 28px;
         line-height: 40px;
@@ -116,40 +120,4 @@
         margin: 1rem 0;
         min-width: 100%;
     }
-}
-
-
-/* Style the timetable container */
-
-.timetable {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 2rem;
-}
-
-
-/* Style table headers (days of the week) */
-
-.timetable th {
-    padding: 10px;
-    background-color: #042c54;
-    color: #fff;
-    text-align: center;
-    font-weight: bold;
-}
-
-
-/* Style table cells (time slots and empty slots) */
-
-.timetable td {
-    padding: 10px;
-    text-align: center;
-    border: 1px solid #ddd;
-}
-
-
-/* Style odd rows with a light background color */
-
-.timetable tbody tr:nth-child(odd) td {
-    background-color: #f2f2f2;
 }
