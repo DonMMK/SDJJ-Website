@@ -1,5 +1,6 @@
 import React from 'react';
-import gpt3Logo from '../../logo.svg';
+// import gpt3Logo from '../../logo.svg';
+import sdjjLogo from '../../assets/sdjj_pictures/StackedDeckLogo_Background_Removed.png';
 import './footer.css';
 
 const Footer = () => (
@@ -14,8 +15,8 @@ const Footer = () => (
 
     <div className="gpt3__footer-links">
       <div className="gpt3__footer-links_logo">
-        <img src={gpt3Logo} alt="gpt3_logo" />
-        <p>Crechterwoord K12 182 DK Alknjkcb, <br /> All Rights Reserved</p>
+        <img src={sdjjLogo} alt="sdjj_logo" />
+        <p>14A Devlan St, Mansfield, Brisbane City, QLD, Australia, Queensland, <br /> All Rights Reserved</p>
       </div>
       <div className="gpt3__footer-links_div">
         <h4>Links</h4>
@@ -32,9 +33,9 @@ const Footer = () => (
       </div>
       <div className="gpt3__footer-links_div">
         <h4>Get in touch</h4>
-        <p>Crechterwoord K12 182 DK Alknjkcb</p>
+        <p>14A Devlan St, Mansfield, Brisbane City, QLD, Australia, Queensland</p>
         <p>085-132567</p>
-        <p>info@payme.net</p>
+        <p>info@stackeddeckjiujitsu.com</p>
       </div>
     </div>
 
